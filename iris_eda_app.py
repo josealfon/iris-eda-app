@@ -10,7 +10,7 @@ def main():
   		'first column': [1, 2, 3, 4],
   		'second column': [10, 20, 30, 40]
 })
-	st.dataframe(df1)
+	df1
 
 if __name__ == '__main__':
 	main()
