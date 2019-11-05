@@ -3,7 +3,7 @@ import pandas as pd
 
 def get_data():
     #return pd.read_csv('https://datahub.io/core/gdp/r/gdp.csv')
-    return pd.read_csv('../gdp.csv')
+    return pd.read_csv('~/streamlit/gdp.csv')
 
 def main():
 	""" A simple Iris EDA App """
