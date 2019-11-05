@@ -40,6 +40,7 @@ def main():
 	@st.cache
 	def run_multiple():
 		return range(100)
+	st.write(run_multiple())
 
 if __name__ == '__main__':
 	main()
