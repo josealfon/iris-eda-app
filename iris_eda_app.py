@@ -32,7 +32,14 @@ def main():
 	'## By year'
 	year = st.slider('Year', min_year, max_year)
 	df[df['Year'] == year]
-#@st.cache
+
+	st.sidebar.header('About')
+	st.sidebar.text('This is Streamlit Tuto')
+
+	# Functions
+	@st.cache
+	def run_multiple():
+		return range(100)
 
 if __name__ == '__main__':
 	main()
